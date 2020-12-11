@@ -48,7 +48,3 @@ exports.up = function(knex) {
             .onUpdate('RESTRICT')
       })
     };
-    
-    exports.down = function(knex) {
-      
-    };
